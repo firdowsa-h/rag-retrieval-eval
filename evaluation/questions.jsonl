@@ -1,0 +1,30 @@
+{"id": "pg-001", "question": "What is the purpose of the PostgreSQL tutorial on creating tables?", "category": "direct", "relevant_section_ids": ["pg18:tutorial-table.html"], "status": "verified"}
+{"id": "pg-002", "question": "How do you insert rows into a table in PostgreSQL?", "category": "direct", "relevant_section_ids": ["pg18:tutorial-populate.html"], "status": "verified"}
+{"id": "pg-003", "question": "How can SELECT retrieve particular columns from a table?", "category": "direct", "relevant_section_ids": ["pg18:tutorial-select.html"], "status": "verified"}
+{"id": "pg-004", "question": "How does a JOIN combine rows from two tables?", "category": "direct", "relevant_section_ids": ["pg18:tutorial-join.html"], "status": "verified"}
+{"id": "pg-005", "question": "How do GROUP BY and aggregate functions work together?", "category": "direct", "relevant_section_ids": ["pg18:tutorial-agg.html"], "status": "verified"}
+{"id": "pg-006", "question": "How can I define a default value for a column?", "category": "direct", "relevant_section_ids": ["pg18:ddl-default.html"], "status": "verified"}
+{"id": "pg-007", "question": "What does a CHECK constraint enforce?", "category": "direct", "relevant_section_ids": ["pg18:ddl-constraints.html"], "status": "verified"}
+{"id": "pg-008", "question": "How do UNIQUE constraints differ from primary keys?", "category": "comparison", "relevant_section_ids": ["pg18:ddl-constraints.html"], "status": "verified"}
+{"id": "pg-009", "question": "What are generated columns in PostgreSQL?", "category": "direct", "relevant_section_ids": ["pg18:ddl-generated-columns.html"], "status": "verified"}
+{"id": "pg-010", "question": "Why would a database use schemas?", "category": "direct", "relevant_section_ids": ["pg18:ddl-schemas.html"], "status": "verified"}
+{"id": "pg-011", "question": "How are permissions granted to roles on database objects?", "category": "direct", "relevant_section_ids": ["pg18:ddl-priv.html"], "status": "verified"}
+{"id": "pg-012", "question": "What is the FROM clause used for in table expressions?", "category": "direct", "relevant_section_ids": ["pg18:queries-table-expressions.html"], "status": "verified"}
+{"id": "pg-013", "question": "How do aliases work in the SELECT output list?", "category": "direct", "relevant_section_ids": ["pg18:queries-select-lists.html"], "status": "verified"}
+{"id": "pg-014", "question": "How can I order query results from highest to lowest?", "category": "paraphrase", "relevant_section_ids": ["pg18:queries-order.html"], "status": "verified"}
+{"id": "pg-015", "question": "What should I know about using LIMIT without ORDER BY?", "category": "paraphrase", "relevant_section_ids": ["pg18:queries-limit.html"], "status": "verified"}
+{"id": "pg-016", "question": "What is a common table expression using WITH?", "category": "direct", "relevant_section_ids": ["pg18:queries-with.html"], "status": "verified"}
+{"id": "pg-017", "question": "What are the main reasons to create an index?", "category": "direct", "relevant_section_ids": ["pg18:indexes-intro.html"], "status": "verified"}
+{"id": "pg-018", "question": "What kinds of index types does PostgreSQL support?", "category": "direct", "relevant_section_ids": ["pg18:indexes-types.html"], "status": "verified"}
+{"id": "pg-019", "question": "When is a multicolumn index useful?", "category": "direct", "relevant_section_ids": ["pg18:indexes-multicolumn.html"], "status": "verified"}
+{"id": "pg-020", "question": "How does a unique index prevent duplicate values?", "category": "direct", "relevant_section_ids": ["pg18:indexes-unique.html"], "status": "verified"}
+{"id": "pg-021", "question": "Can PostgreSQL build an index on an expression rather than a column?", "category": "paraphrase", "relevant_section_ids": ["pg18:indexes-expressional.html"], "status": "verified"}
+{"id": "pg-022", "question": "How can I index only rows that meet a condition?", "category": "paraphrase", "relevant_section_ids": ["pg18:indexes-partial.html"], "status": "verified"}
+{"id": "pg-023", "question": "What problems does full-text search solve?", "category": "direct", "relevant_section_ids": ["pg18:textsearch-intro.html"], "status": "verified"}
+{"id": "pg-024", "question": "How do I search a table using a tsvector column?", "category": "direct", "relevant_section_ids": ["pg18:textsearch-tables.html"], "status": "verified"}
+{"id": "pg-025", "question": "What isolation levels does PostgreSQL describe?", "category": "direct", "relevant_section_ids": ["pg18:transaction-iso.html"], "status": "verified"}
+{"id": "pg-026", "question": "What are the differences among row-level locking modes?", "category": "comparison", "relevant_section_ids": ["pg18:explicit-locking.html"], "status": "verified"}
+{"id": "pg-027", "question": "What is VACUUM used for and why should it run regularly?", "category": "direct", "relevant_section_ids": ["pg18:routine-vacuuming.html"], "status": "verified"}
+{"id": "pg-028", "question": "How do I use EXPLAIN to understand query execution?", "category": "direct", "relevant_section_ids": ["pg18:performance-tips.html"], "status": "verified"}
+{"id": "pg-029", "question": "How can indexes help a query with multiple filter columns?", "category": "paraphrase", "relevant_section_ids": ["pg18:indexes-multicolumn.html"], "status": "verified"}
+{"id": "pg-030", "question": "How does ORDER BY interact with LIMIT when choosing the first rows?", "category": "comparison", "relevant_section_ids": ["pg18:queries-limit.html"], "status": "verified"}

@@ -1,0 +1,11 @@
+beautifulsoup4<5,>=4.12
+fastapi<1,>=0.115
+httpx<1,>=0.27
+pydantic-settings<3,>=2.5
+qdrant-client<2,>=1.12
+sentence-transformers<6,>=3.0
+uvicorn[standard]<1,>=0.30
+
+[dev]
+pytest<10,>=8
+ruff<1,>=0.8
